@@ -1,5 +1,5 @@
 # ---- Stage 1: Builder - Compile the Rust Wheel ----
-FROM rust:1.94.0-slim AS builder
+FROM rust:1.94.1-slim AS builder
 
 ENV DEBIAN_FRONTEND=noninteractive
 
