@@ -1,5 +1,5 @@
 [build-system]
-requires = ["maturin>=1.9,<2.0"]
+requires = ["maturin>=1.13.1,<2.0"]
 build-backend = "maturin"
 
 [project]
@@ -19,7 +19,7 @@ dependencies = [
 dev = [
     "faker>=37.11.0",
     "fast-diff-mcp",
-    "maturin>=1.9.6",
+    "maturin>=1.13.1",
     "pyo3-stubgen>=0.3.0",
     "pyperf>=2.9.0",
 ]
