@@ -12,7 +12,7 @@ classifiers = [
 ]
 dynamic = ["version"]
 dependencies = [
-    "fastmcp>=2.12.5",
+    "fastmcp>=3.2.3",
 ]
 
 [project.optional-dependencies]
