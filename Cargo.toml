@@ -9,5 +9,5 @@ name = "fast_diff_mcp"
 crate-type = ["cdylib"]
 
 [dependencies]
-pyo3 = { version = "0.28.2" }
+pyo3 = { version = "0.28.3" }
 similar = "2.7.0"
