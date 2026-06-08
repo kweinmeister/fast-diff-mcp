@@ -17,7 +17,7 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = [
-    "faker>=40.20.0",
+    "faker>=40.21.0",
     "fast-diff-mcp",
     "maturin>=1.13.3",
     "pyo3-stubgen>=0.3.0",
