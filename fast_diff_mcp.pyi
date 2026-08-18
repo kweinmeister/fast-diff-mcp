@@ -1,4 +1,3 @@
-# flake8: noqa: PYI021
 def unified_diff(text1, text2):
     """
     Compares two multiline strings and returns the difference in the
