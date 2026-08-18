@@ -1,15 +1,14 @@
 import logging
 import random
-from typing import Tuple
 
 import pyperf
 from faker import Faker
-
 from fastmcp import Client
+
 from server import mcp
 
 
-def generate_test_texts() -> Tuple[str, str]:
+def generate_test_texts() -> tuple[str, str]:
     """Generate a pair of texts for benchmarking."""
     fake = Faker()
     text_a = fake.text(max_nb_chars=10000000)
